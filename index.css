@@ -7,12 +7,20 @@
     body {
       font-family: 'Arial', sans-serif;
       background-image: url("img/paint.webp");
-      background-size: cover;
+/*       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       padding: 16px;
       max-width: 500px;
+      margin: 0 auto; */
+      padding: 16px;
+      max-width: 500px;
       margin: 0 auto;
+
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      height: 100vh;
     }
 
     h1 {
@@ -101,8 +109,11 @@
       }
 
       button {
-        width: 24px;
-        height: 18px;
+/*         width: 24px;
+        height: 18px; */
+
+        width: 34px;
+        height: 28px;
 
         background: #bdbdbd url('/img/draw.png') no-repeat center;
 
